@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* navber section starts here */
+
+.nav-logo h3 {
+    font-family: sans-serif;
+    font-weight: 10px;
+    font-style: italic;
+    color: #E35032;
+    font-size: 30px;
+}
+
+.nav-main {
+    display: flex;
+    justify-content: space-around;
+    background-color: #222222;
+}
+
+
+
+.nav-logo {
+    /* border: 2px solid orangered; */
+    margin-top: 33px;
+    
+}
+
+.nav-menu {
+
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    border: 2px solid gray;
+    border-radius: 500px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.nav-child {
+    font-weight: bold;
+    padding: 7px;
+    border-radius: 20px;
+    color: antiquewhite;
+}
+
+.nav-hamburger-menu {
+    display: none;
+    color: aliceblue;
+}
+
+/* navber section ends here  */
+
+/* get body section starts here  */
+
+.get-body-main{
+    display: flex;
+    justify-content: space-between;
+    width: 100%; 
+    padding: 0 10%;
+}
+
+.get-body-text{
+    
+    color: aliceblue;
+     width: 30%;
+    
+    
+}
+
+.get-body-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+
+
+.get-body-text p{
+    margin-top: 15px;
+    color:antiquewhite
+}
+
+.get-body-text h1{
+    font-size: 90px;
+    font-family: Pacifico;
+    font-weight: bold;
+}
+
+.get-body-text span{
+    font-family: 'Dancing Script', cursive;
+    font-style: italic;
+}
+
+.get-body-btn-main{
+    display: flex;
+    justify-content: space-around;
+}
+
+.get-body-btn-1 {
+    padding: 15px;
+    background-color: #E35032;
+    font-size: 20px;
+    color: aliceblue;
+    border-radius: 50px;
+    margin-top: 30px;
+    border: none;
+    
+}
+
+.get-body-btn-2{
+    padding: 15px;
+    background-color: #222222;
+    font-size: 20px;
+    color: aliceblue;
+    border-radius: 50px;
+    border: 2px solid ghostwhite;
+    margin-top: 30px;
+}
+
+.free-work-video, .video-tutorial{
+    background-color: rgba(73, 69, 69, 0.806);
+    color: aliceblue;
+    padding: 12px 50px;
+    font-size: 10px;
+    border-radius: 15px;
+    position: absolute;
+    top: 40%;
+    left: 80%;
+}
+
+.video-tutorial{
+    top: 70%;
+    left: 60%;
+    display: flex;
+    
+}
+
+
+.video-tutorial button{
+    width: 30px; /* Adjust the size of the circle */
+    height: 30px; /* Adjust the size of the circle */
+    background-color: red; /* Circle color */
+    border-radius: 50%; /* Makes the div a circle */
+     border: none;
+}
+
+.img h1{
+    font-size: 35px;
+}
+/* get body section ends here  */
