@@ -328,6 +328,8 @@ p {
 .train-text {
     color: #ffffff;
     padding: 40px 110px;
+    text-align: center;
+
 }
 
 .train-text h1 {
@@ -519,9 +521,15 @@ p {
 
 /* BMI section starts here  */
 
+.BMI-main{
+    display: flex;
+    justify-content: space-around;
+    background-color: #222222;
+}
+
 .bmi-container h1 {
     background-color: #222;
-    padding-top: 90px;
+    padding-top: 80px;
   }
 .bmi-container{
     color: white;
@@ -555,8 +563,7 @@ table {
 
 
 
-
-  body {
+ body {
     font-family: sans-serif;
     background-color: #222;
     color: #eee;
@@ -627,15 +634,15 @@ table {
     font-weight: bold;
   }
 
-  .input-row { /* Styles for the new input rows */
-    display: flex; /* Use flexbox for side-by-side layout */
-    gap: 10px; /* Add some space between the input groups */
-    margin-bottom: 15px; /* Add margin below the row */
+  .input-row { 
+    display: flex; 
+    gap: 10px;
+    margin-bottom: 15px; 
     background-color: #222;
   }
   
-  .input-row .input-group { /* Each input group inside the row takes up half the width */
-    flex: 1; /* Distribute available space equally */
+  .input-row .input-group { 
+    flex: 1; 
   }
 
   #bmiForm{
@@ -643,3 +650,209 @@ table {
   }
 
 /* BMI section ends here  */
+
+/* team section start here  */
+
+
+.team-child {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    margin: 100px;
+    padding: 15px; /* Adjust padding as needed */
+    gap: 15px; /* Remove gap between grid items if you don't want any */
+    background-color: #222;
+    border-radius: 20px;
+}
+
+.team-child > div {
+    position: relative;
+    overflow: hidden; /* This is crucial for containing the image */
+}
+
+.overlay-text {
+    font-weight:bold;
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    color: white;
+    font-size: 20px;
+    z-index: 1;
+}
+
+.overlay-text span{
+    font-weight:lighter;
+    padding-top: 5px;
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    color: rgb(216, 214, 214);
+    font-size: 10px;
+    z-index: 1;
+}
+.team-child-1 {
+    position: relative;
+    grid-column: 1/span 4;
+    grid-row: 1/ span 6;
+    overflow: hidden;
+}
+
+
+.team-child-2 {
+    position: relative;
+    grid-column: 5/span 4;
+    grid-row: 1/ span 6;
+    overflow: hidden;
+}
+
+
+.team-child-3 {
+    position: relative;
+    grid-column: 9/span 4;
+    grid-row: 1/ span 6;
+    overflow: hidden;
+}
+
+
+.team-child-4 {
+    font-weight:bold;
+
+    position: relative;
+    grid-column: 1/span 4;
+    grid-row: 7/ span 6;
+    overflow: hidden;
+}
+
+
+.team-child-5 {
+    position: relative;
+    grid-column: 5/span 4;
+    grid-row: 7/ span 6;
+    overflow: hidden;
+}
+
+.team-child-6 {
+    position: relative;
+    grid-column: 9/span 4;
+    grid-row: 7/ span 6;
+}
+
+
+.team-child img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center; /* Center the image focus */
+    display: block; /* Prevents small vertical space below image */
+}
+/* team section ends here  */
+
+/* footer section starts here  */
+body {
+    font-family: sans-serif;
+    background-color: black; /* Universal background color */
+    color: #888;
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+    align-items: center; /* Center horizontally */
+    min-height: 100vh;
+    margin: 0;
+}
+
+.main-container {
+    display: flex; /* Arrange content and buttons side by side */
+    align-items: center; /* Vertically align items */
+    gap: 100px; /* Adjust spacing between sections */
+    width: 100%;
+    margin-top: 50px; /* Space from top */
+    background-color: #222;
+}
+
+.content-section {
+    flex: 1; /* Takes up available space */
+}
+
+.text-wrapper { /* Add background to the text content */
+    background-color: #222;
+    padding: 20px;
+}
+
+.fitness-title {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #e53935;
+    margin-bottom: 1rem;
+    background-color: #222;
+    text-align: center;
+    font-style: italic;
+}
+
+.fitness-description {
+    font-size: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.button-section {
+    flex: 1; /* Takes up available space */
+    /* display: flex; */
+    justify-content: center; /* Center buttons horizontally */
+    background-color: #222;
+}
+
+.get-started{
+    background-color: #222;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.links-container {
+    width: 90%;
+    max-width: 960px;
+    margin-top: 50px; /* Space from main content */
+    display: flex;
+    flex-direction: column; /* Arrange links and footer vertically */
+    align-items: center; /* Center horizontally */
+    background-color: #222;
+}
+
+.links {
+    display: flex;
+    gap: 100px;
+    margin-bottom: 30px;
+    background-color: #222;
+}
+
+.link-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #222;
+}
+
+.links a {
+    color: #888;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.footer {
+    border-top: 1px solid #444;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    text-align: center; /* Center footer text */
+    background-color: #222;
+}
+
+.copyright {
+    font-size: 1rem;
+    color: #888;
+    background-color: #222;
+}
+
+
+a {
+    background-color: #222;
+}
+/* footer section ends here  */
