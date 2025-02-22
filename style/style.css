@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: black;
 }
+
 
 /* navber section starts here */
 
@@ -12,6 +14,7 @@
     font-style: italic;
     color: #E35032;
     font-size: 30px;
+    background-color: #222222;
 }
 
 .nav-main {
@@ -23,9 +26,9 @@
 
 
 .nav-logo {
-    /* border: 2px solid orangered; */
-    margin-top: 33px;
-    
+    padding: 33px;
+    background-color: transparent;
+
 }
 
 .nav-menu {
@@ -55,48 +58,63 @@
 
 /* get body section starts here  */
 
-.get-body-main{
+.bg {
+    background-color: #222222;
+}
+
+.get-body-main {
     display: flex;
     justify-content: space-between;
-    width: 100%; 
+    width: 100%;
     padding: 0 10%;
 }
 
-.get-body-text{
-    
+.get-body-text {
+
     color: aliceblue;
-     width: 30%;
-    
-    
+    width: 30%;
+    background-color: #222222;
+
+
 }
 
-.get-body-img{
-    display: flex;
+.img {
+    background-color: transparent;
+    display: block;
+}
+
+.get-body-img {
+    display: inline-block;
     align-items: center;
     justify-content: center;
     width: 30%;
+    background-color: #222222;
 }
 
 
-.get-body-text p{
+.get-body-text p {
     margin-top: 15px;
-    color:antiquewhite
+    color: antiquewhite;
+    background-color: #222222;
 }
 
-.get-body-text h1{
+.get-body-text h1 {
     font-size: 90px;
     font-family: Pacifico;
     font-weight: bold;
+    background-color: #222222;
 }
 
-.get-body-text span{
+.get-body-text span {
     font-family: 'Dancing Script', cursive;
     font-style: italic;
+    background-color: #222222;
 }
 
-.get-body-btn-main{
+.get-body-btn-main {
     display: flex;
     justify-content: space-around;
+    background-color: #222222;
 }
 
 .get-body-btn-1 {
@@ -107,10 +125,10 @@
     border-radius: 50px;
     margin-top: 30px;
     border: none;
-    
+
 }
 
-.get-body-btn-2{
+.get-body-btn-2 {
     padding: 15px;
     background-color: #222222;
     font-size: 20px;
@@ -120,7 +138,8 @@
     margin-top: 30px;
 }
 
-.free-work-video, .video-tutorial{
+.free-work-video,
+.video-tutorial {
     background-color: rgba(73, 69, 69, 0.806);
     color: aliceblue;
     padding: 12px 50px;
@@ -129,25 +148,498 @@
     position: absolute;
     top: 40%;
     left: 80%;
+
 }
 
-.video-tutorial{
+.video-tutorial {
     top: 70%;
     left: 60%;
     display: flex;
-    
 }
 
-
-.video-tutorial button{
-    width: 30px; /* Adjust the size of the circle */
-    height: 30px; /* Adjust the size of the circle */
-    background-color: red; /* Circle color */
-    border-radius: 50%; /* Makes the div a circle */
-     border: none;
+.video-tutorial h1,
+span {
+    background-color: transparent;
 }
 
-.img h1{
+.free-work-video h1,
+span {
+    background-color: transparent;
+}
+
+.video-tutorial button {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+    border: none;
+
+}
+
+.red-circle {
+    background-color: transparent;
+}
+
+.img h1 {
     font-size: 35px;
 }
+
 /* get body section ends here  */
+
+
+
+
+/* change session starts here  */
+
+.change-main {
+    padding: 60px;
+}
+
+.change-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.change-img {
+    display: flex;
+}
+
+.change-text h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 36px;
+    color: #ffffff;
+    font-weight: bolder;
+    margin-bottom: 10px;
+
+}
+
+.change-main p {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    color: antiquewhite;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.change-main h3 {
+    font-family: 'Arial', sans-serif;
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.change-img {
+    width: 100%;
+}
+
+.change-img-1 img,
+.change-img-2 img,
+.change-img-3 img,
+.change-img-4 img {
+    border: 5px solid #383838;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.change-img-1,
+.change-img-2,
+.change-img-3,
+.change-img-4 {
+    width: 20%;
+    margin: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* change session ends here  */
+
+/* run section starts here  */
+
+.run-main {
+    padding: 100px;
+
+}
+
+.run-container {
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    width: 100%;
+
+}
+
+.run-img {
+
+    object-fit: cover;
+    display: block;
+    border-radius: 30px;
+    background-color: transparent;
+}
+
+.run-img img {
+    border-radius: 25px;
+    max-width: 133%;
+    max-height: 133%;
+}
+
+.run-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    padding: 40px;
+    padding-right: 100px;
+    background-color: transparent;
+    align-items: start;
+}
+
+.run-text button {
+    color: #ffffff;
+    background-color: #E35032;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 60px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.run-text h1,
+p {
+    background-color: transparent;
+}
+
+.run-text h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+/* run section ends here  */
+
+
+/* training section starts here  */
+
+.train-text {
+    color: #ffffff;
+    padding: 40px 110px;
+}
+
+.train-text h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+
+.train-child {
+
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    padding: 110px;
+
+}
+
+.train-child-1 {
+    position: relative;
+    grid-column: 1/span 3;
+    grid-row: 1/ span 6;
+    overflow: hidden;
+}
+
+
+.train-child-1::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    background-color: aqua;
+    opacity: 0.3;
+}
+
+.overlay-text-1 {
+    font-weight:bold;
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    color: black;
+    font-size: 20px;
+    z-index: 1;
+}
+
+.train-child-2 {
+    position: relative;
+    grid-column: 4/span 6;
+    grid-row: 1/ span 6;
+    overflow: hidden;
+}
+
+.train-child-2::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    background-color: red;
+    opacity: 0.3;
+}
+
+.overlay-text-2 {
+    font-weight:bold;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    color: white;
+    font-size: 20px;
+    z-index: 1;
+}
+
+.train-child-3 {
+    position: relative;
+    grid-column: 10/span 3;
+    grid-row: 1/ span 6;
+    overflow: hidden;
+}
+
+.train-child-3::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    background-color: black;
+    opacity: 0.3;
+}
+
+.overlay-text-3 {
+    font-weight:bold;
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    color: white;
+    font-size: 20px;
+    z-index: 1;
+}
+
+.train-child-4 {
+    font-weight:bold;
+
+    position: relative;
+    grid-column: 1/span 5;
+    grid-row: 7/ span 6;
+    overflow: hidden;
+}
+
+.train-child-4::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    background-color: black;
+    opacity: 0.3;
+}
+
+.overlay-text-4 {
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    color: white;
+    font-size: 20px;
+    z-index: 1;
+}
+
+.train-child-5 {
+    position: relative;
+    grid-column: 6/span 2;
+    grid-row: 7/ span 6;
+    overflow: hidden;
+}
+
+.train-child-5::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    background-color: rgb(118, 173, 37);
+    opacity: 0.3;
+}
+
+.overlay-text-5 {
+    font-weight:bold;
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    color: white;
+    font-size: 20px;
+    z-index: 1;
+}
+.train-child-6 {
+    position: relative;
+    grid-column: 8/span 5;
+    grid-row: 7/ span 6;
+}
+
+.train-child-6::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    background-color: blue;
+    opacity: 0.3;
+}
+
+.overlay-text-6 {
+    font-weight:bold;
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    color: white;
+    font-size: 20px;
+    z-index: 1;
+}
+
+.train-child img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* training section ends here  */
+
+/* BMI section starts here  */
+
+.bmi-container h1 {
+    background-color: #222;
+    padding-top: 90px;
+  }
+.bmi-container{
+    color: white;
+    background-color: #222;
+}
+
+table {
+    width: 300px; /* Adjust as needed */
+    border-collapse: collapse; /* Collapse borders for a cleaner look */
+    margin: 20px auto; /* Center the table */
+    background-color: #222; /* Dark background color */
+    color: #fff; /* Light text color */
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left; /* Align text to the left */
+    border-bottom: 1px solid #555; /* Add a subtle bottom border */
+    background-color: #222;
+  }
+  
+  th {
+    background-color: #555; /* Slightly darker header background */
+    font-weight: bold;
+  }
+  
+  /* Optional: Add hover effect to rows */
+  tr:hover {
+    background-color: #444;
+  }
+
+
+
+
+  body {
+    font-family: sans-serif;
+    background-color: #222;
+    color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: #222;
+  }
+  
+  p {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+    background-color: #222;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    background-color: #222;
+  }
+  
+  input[type="number"],
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #555;
+    background-color: #444;
+    color: #eee;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #e53935;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    background-color: #d32f2f;
+  }
+  
+  #result {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .input-row { /* Styles for the new input rows */
+    display: flex; /* Use flexbox for side-by-side layout */
+    gap: 10px; /* Add some space between the input groups */
+    margin-bottom: 15px; /* Add margin below the row */
+    background-color: #222;
+  }
+  
+  .input-row .input-group { /* Each input group inside the row takes up half the width */
+    flex: 1; /* Distribute available space equally */
+  }
+
+  #bmiForm{
+    background-color: #222;
+  }
+
+/* BMI section ends here  */

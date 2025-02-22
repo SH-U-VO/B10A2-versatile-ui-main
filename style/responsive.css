@@ -1,15 +1,147 @@
 @media screen and (max-width:500px) {
-   
-    .nav-hamburger-menu{
+
+    .nav-hamburger-menu {
         display: block;
         margin-top: 20px;
     }
 
-    .nav-menu{
-         display: none;
+    .nav-menu {
+        display: none;
     }
 
-    .nav-logo{
+    .nav-logo {
         margin: 10px;
+    }
+
+    .get-body-main {
+
+        flex-direction: column;
+
+    }
+
+    .get-body-text {
+        width: 100%;
+
+    }
+
+    .get-body-img {
+        width: 100%;
+    }
+
+    .get-body-text h1 {
+        font-size: 50px;
+    }
+
+    .video-tutorial{
+        top: 85%;
+        left: 20%;
+        display: flex;
+    }
+
+    .free-work-video{
+        top: 60%;
+        left: 50%;
+    }
+
+    /* change section starts here  */
+    .change-img{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .change-img-1, .change-img-2, .change-img-3, .change-img-4{
+        width: 100%;
+        margin: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
         }
+
+        .change-main p {
+            font-family: 'Arial', sans-serif;
+            font-size: 18px;
+            color:antiquewhite;
+            line-height: 2; 
+            margin-bottom: 10px; 
+        }
+    
+    /* change section ends here  */
+
+    /* run section starts here */
+
+    .run-container{
+        background-color: #222222;
+        display: flex;
+        flex-direction: column;
+        border-radius: 20px;
+        margin: 20px;
+        width: 80%;
+    
+    }
+
+    .run-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 40px;
+        background-color: transparent;
+        align-items: start;
+    }
+    
+    .run-main{
+        padding: 20px;
+        justify-content: center;
+        display: flex;
+        width: 100%;
+    
+    }
+
+    .run-text button{
+        border-radius: 30px;
+        padding: 10px 60px;
+        font-size: 20px;
+    }
+
+    .run-img img{
+        max-width: 100%;
+        max-height: 100%;
+        /* object-fit: cover; */
+        display: block;
+        border-radius: 30px;
+        background-color: transparent;
+    }
+    /* run section ends here  */
+
+    /* trainning section starts here  */
+
+    .train-child {
+        padding: 50px;
+    
+    }
+
+    .train-child-3, .train-child-6{
+        display: none;
+    }
+
+    .train-child-1 {
+        grid-column: 1/span 6;
+        grid-row: 1/ span 6;
+    }
+    .train-child-2 {
+        grid-column: 7/span 6;
+        grid-row: 1/ span 6;
+    }
+    .train-child-4 {
+        grid-column: 1/span 5;
+        grid-row: 7/ span 6;
+    }
+    .train-child-5 {
+        grid-column: 6/span 7;
+        grid-row: 7/ span 6;
+    }
+    /* training section ends here  */
+    
 }
